@@ -1,0 +1,18 @@
+<h1>People List</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Birth Year</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let people of list; let i = index" [routerLink]="['/people', i + 1]">
+            <td>{{ i + 1 }}</td>
+            <td>{{ people.name }}</td>
+            <td>{{ people.birth_year }}</td>
+        </tr>
+    </tbody>
+</table>
