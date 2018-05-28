@@ -11,8 +11,8 @@
         "e2e": "ng e2e",
         "build": "ng build --base-href=\".\"",
         "predocker-build": "ng build --base-href=\".\" --prod",
-        "docker-build": "docker build -t ttconferences.azurecr.io/dotnet-day-ch-2018-angular-demo:latest .",
-        "docker-push": "docker push ttconferences.azurecr.io/dotnet-day-ch-2018-angular-demo",
+        "docker-build": "docker build -t ttconferences.azurecr.io/dotnet-day-ch-2018-angular-demo-live:latest .",
+        "docker-push": "docker push ttconferences.azurecr.io/dotnet-day-ch-2018-angular-demo-live",
         "push-server": "node src-push-server/index.js"
     },
     "author": "Manuel Rauber <manuel.rauber@thinktecture.com>",
@@ -34,7 +34,6 @@
         "@angular/http": "^6.0.3",
         "@angular/platform-browser": "^6.0.3",
         "@angular/platform-browser-dynamic": "^6.0.3",
-        "@angular/pwa": "^0.6.5",
         "@angular/router": "^6.0.3",
         "core-js": "^2.5.4",
         "rxjs": "^6.0.0",
