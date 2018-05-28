@@ -1,6 +1,6 @@
 # dotnet-day-ch-2018-angular-demo
 
-Slides for this talk can be found on [Speakerdeck](https://speakerdeck.com/manuelrauber/echte-cross-plattform-anwendungen-mit-angular-cordova-und-electron-volle-power-im-frontend).
+Slides for this talk can be found on [Speakerdeck](https://speakerdeck.com/manuelrauber/real-cross-platform-in-action-angular-progressive-web-apps-electron-and-cordova).
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli).
 
