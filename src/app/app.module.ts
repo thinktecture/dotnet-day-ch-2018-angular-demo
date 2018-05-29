@@ -8,6 +8,7 @@ import { HeaderComponent } from './components/header/header';
 import { HomeComponent } from './components/home/home';
 import { MenuComponent } from './components/menu/menu';
 import { ROUTES } from './routes';
+import { NotificationService } from './services/notification.service';
 import { WindowRef } from './services/windowRef';
 
 @NgModule({
@@ -25,6 +26,7 @@ import { WindowRef } from './services/windowRef';
     ],
     providers: [
         WindowRef,
+        NotificationService,
     ],
     bootstrap: [AppComponent],
 })
